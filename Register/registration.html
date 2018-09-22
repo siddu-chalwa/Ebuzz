@@ -61,7 +61,24 @@
 
   </style>
 
-</head>
+  <script type="text/javascript">
+
+  var total = 0;
+
+  function test(item){
+      if(item.checked){
+         total+= parseInt(item.value);
+      }else{
+         total-= parseInt(item.value);
+      }
+      //alert(total);
+      document.getElementById('Totalcost').innerHTML = total + " /-";
+  }
+
+
+
+  </script>
+  </head>
 
 <body>
 
@@ -74,15 +91,15 @@
   <div class="container" align="center">
     <div class="row">
       <div class="col-sm-4" id="idback">
-        <h3><u>Face The Boss</u></h3>
+        <input type="checkbox" name="channelcost" value="100" onClick="test(this);" />Face The Boss<br />
         <p><b>Rs 100/-</b></p>
       </div>
       <div class="col-sm-3" id="idback">
-        <h3><u>Papy-Prez</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="80" onClick="test(this);" />Papy-Prez<br />
         <p><b>Rs 80/-</b></p>
       </div>
       <div class="col-sm-4" id="idback">
-        <h3><u>Code Ninja</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="60" onClick="test(this);" />Code Ninja<br />
         <p><b>Rs 60/-</b></p>
       </div>
     </div>
@@ -91,15 +108,15 @@
   <div class="container" align="center">
     <div class="row">
       <div class="col-sm-4" id="idback">
-        <h3><u>Techextra</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="60" onClick="test(this);" />Techextra<br />
         <p><b>Rs 60/-</b></p>
       </div>
       <div class="col-sm-3" id="idback">
-        <h3><u>Make-ur-Resume</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="50" onClick="test(this);"  />Makew-ur-Resume<br />
         <p><b>Rs 50/-</b></p>
       </div>
       <div class="col-sm-4" id="idback">
-        <h3><u>Tedx Talk</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="100" onClick="test(this);" />Tedx Talk<br />
         <p><b>Rs 100/-</b></p>
       </div>
     </div>
@@ -109,16 +126,16 @@
     <div class="row">
 
       <div class="col-sm-4" id="idback">
-        <h3><u>Web-Hub</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="80" onClick="test(this);" />Web-Hub<br />
         <p><b>Rs 80/-</b></p>
       </div>
       <div class="col-sm-3" id="idback">
-        <h3><u>Ice Cream Stick Modelling</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="70" onClick="test(this);" />Ice Cream Stick Modelling<br />
         <p><b>Rs 70/-</b></p>
       </div>
 
       <div class="col-sm-4" id="idback">
-        <h3><u>Sab Khelo sab Jeeto</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="60" onClick="test(this);"  />Sab Khelo Sab Jeeto<br />
         <p><b>Rs 60/-</b></p>
       </div>
     </div>
@@ -127,15 +144,15 @@
   <div class="container" align="center">
     <div class="row">
       <div class="col-sm-4" id="idback">
-        <h3><u>Tik-Tok</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="50" onClick="test(this);" />Tik-Tok<br />
         <p><b>Rs 50/-</b></p>
       </div>
       <div class="col-sm-3" id="idback">
-        <h3><u>Rang De Basanti</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="60" onClick="test(this);" />Rang De Basanti<br />
         <p><b>Rs 60/-</b></p>
       </div>
       <div class="col-sm-4" id="idback">
-        <h3><u>Film Fest</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="70" onClick="test(this);" />Film Fest<br />
         <p><b>Rs 70/-</b></p>
       </div>
     </div>
@@ -144,15 +161,15 @@
   <div class="container" align="center">
     <div class="row">
       <div class="col-sm-4" id="idback">
-        <h3><u>Stand-O-Food</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="50" onClick="test(this);" />Stand-O-Food<br />
         <p><b>Rs 50/-</b></p>
       </div>
       <div class="col-sm-3" id="idback">
-        <h3><u>Surprise Events</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="50" onClick="test(this);" />Surprise Events<br />
         <p><b>Rs 50/-</b></p>
       </div>
       <div class="col-sm-4" id="idback">
-        <h3><u>Sabse Smart Kaun</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="50" onClick="test(this);" />Sabse Smart Kaun<br />
         <p><b>Rs 50/-</b></p>
       </div>
     </div>
@@ -161,15 +178,15 @@
   <div class="container" align="center">
     <div class="row">
       <div class="col-sm-4" id="idback">
-        <h3><u>Mehendi</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="80" onClick="test(this);" />Mehendi<br />
         <p><b>Rs 80/-</b></p>
       </div>
       <div class="col-sm-3" id="idback">
-        <h3><u>Rangoli</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="60" onClick="test(this);" />Rangoli<br /> 
         <p><b>Rs 60/-</b></p>
       </div>
       <div class="col-sm-4" id="idback">
-        <h3><u>Solah Shringar</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="60" onClick="test(this);" />Solah Shringar<br />
         <p><b>Rs 60/-</b></p>
       </div>
     </div>
@@ -178,16 +195,17 @@
   <div class="container" align="center">
     <div class="row">
       <div class="col-sm-4" id="idback">
-        <h3><u>NFS Most Wanted</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="80" onClick="test(this);" />NFS Most Wanted<br />
         <p><b>Rs 80/-</b></p>
       </div>
       <div class="col-sm-3" id="idback">
-        <h3><u>Chess</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="60" onClick="test(this);" />Chess<br />
         <p><b>Rs 60/-</b></p>
       </div>
       <div class="col-sm-4" id="idback">
-        <h3><u>Magic Red Carpet</u></h3>
-        <p><b>Rs 100/-</b></p>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="70" onClick="test(this);" />Carrom<br />
+        <p><b>Rs 70/-</b></p> 
+           
       </div>
     </div>
   </div>
@@ -195,11 +213,13 @@
   <div class="container" align="center">
     <div class="row">
       <div class="col-sm-5" id="idback">
-        <h3><u>Carrom</u></h3>
-        <p><b>Rs 70/-</b></p>
+               
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="100" onClick="test(this);"/>MagicRed Carpet<br /> 
+        <p><b>Rs 100/-</b></p>
+
       </div>
       <div class="col-sm-6" id="idback">
-        <h3><u>Star-O-Buzz</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="100" onClick="test(this);" />Star-O-Buzz<br />
         <p><b>Rs 100/-</b></p>
       </div>
     </div>
@@ -211,15 +231,16 @@
   <div class="container" align="center">
     <div class="row">
       <div class="col-sm-4" id="idback">
-        <h3><u>Papy-Prez for 2 players</u></h3>
+                
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="150" onClick="test(this);" />Papy-Prez for 2 players<br />
         <p><b>Rs 150/-</b></p>
       </div>
       <div class="col-sm-3" id="idback">
-        <h3><u>Code Ninja for 2 players</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="100" onClick="test(this);" />Code Ninja for 2 players<br /> 
         <p><b>Rs 100/-</b></p>
       </div>
       <div class="col-sm-4" id="idback">
-        <h3><u>Brain Storm for 2 players</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="100" onClick="test(this);" />Brain Storm for 2 players<br />
         <p><b>Rs 100/-</b></p>
       </div>
     </div>
@@ -228,15 +249,15 @@
   <div class="container" align="center">
     <div class="row">
       <div class="col-sm-4" id="idback">
-        <h3><u>Filmy Spartans for 2 players</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="100" onClick="test(this);" />Filmy Spartans for 2 players<br />
         <p><b>Rs 100/-</b></p>
       </div>
       <div class="col-sm-3" id="idback">
-        <h3><u>Tressure hunt for 4 players</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="200" onClick="test(this);" />Tressure hunt for 4 players<br />
         <p><b>Rs 200/-</b></p>
       </div>
       <div class="col-sm-4" id="idback">
-        <h3><u>PUBG Squad for 4 players</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="300" onClick="test(this);" />PUBG Squad for 4 players<br />
         <p><b>Rs 300/-</b></p>
       </div>
     </div>
@@ -245,7 +266,7 @@
   <div class="container" align="center">
     <div class="row">
       <div class="col-sm-11" id="idback">
-        <h3><u>Carrom Double</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="120" onClick="test(this);" />Carrom Double<br />
         <p><b>Rs 120/-</b></p>
       </div>
     </div>
@@ -257,15 +278,17 @@
   <div class="container" align="center">
     <div class="row">
       <div class="col-sm-4" id="idback">
-        <h3><u>Face the Boss+Tedx Talk+Make-ur-Resume</u></h3>
+        
+        
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="200" onClick="test(this);" />Face the Boss+Tedx Talk+Make-ur-Resume<br />
         <p><b>Rs 200/-</b></p>
       </div>
       <div class="col-sm-3" id="idback">
-        <h3><u>Chess+Carrom</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="110" onClick="test(this);" />Chess+Carrom<br />
         <p><b>Rs 110/-</b></p>
       </div>
       <div class="col-sm-4" id="idback">
-        <h3><u>Code Ninja+PUBG Squad+Tik Tok</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="200" onClick="test(this);" />Code Ninja+PUBG Squad+Tik Tok<br />
         <p><b>Rs 200/-</b></p>
       </div>
     </div>
@@ -274,15 +297,16 @@
   <div class="container" align="center">
     <div class="row">
       <div class="col-sm-5" id="idback">
-        <h3><u>Sab Khelo Sab Jeeto+Techextra</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="100" onClick="test(this);" />Sab Khelo Sab Jeeto+Techextra<br />
         <p><b>Rs 100/-</b></p>
       </div>
       <div class="col-sm-6" id="idback">
-        <h3><u>Mehendi+Rangoli</u></h3>
+        <input style="margin-top:10" type="checkbox" name="channelcost" value="120" onClick="test(this);" />Mehendi+Rangoli<br />
         <p><b>Rs 120/-</b></p>
       </div>
     </div>
   </div>
+  <b style="color:aqua" ><div style="text-align:center">Total Amount : <span id="Totalcost"> </div></span></b>
 <br>
 
 
