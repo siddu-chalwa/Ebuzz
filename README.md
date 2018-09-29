@@ -1,8 +1,4 @@
-# Ebuzz
+# E-Buzz 10
 
-## This is demo page
-
-**18-sept-2018**: Studied about hosting.
-
-**Today work**: Tried This things.
-
+Building a website for college Fest.
+Website: gndecsiabuzz.com
