@@ -1,2 +1,2 @@
 # E-Buzz 10
-Building a website for college Fest. Website: gndecsiabuzz.com
+Website Designed for college Fest 2019. Website: gndecsiabuzz.com
